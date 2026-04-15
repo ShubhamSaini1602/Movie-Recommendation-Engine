@@ -11,7 +11,7 @@ import { handleGraphQuery } from "./11_graphHandler.js";
 import { handleSimilarityQuery } from "./12_similarityHandler.js";
 
 app.use(cors({
-	origin: ["http://localhost:5173"],
+	origin: ["http://localhost:5173", "https://movie-sense.netlify.app"],
 	credentials: true
 }));
 app.use(express.json());
